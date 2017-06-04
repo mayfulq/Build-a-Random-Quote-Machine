@@ -1,0 +1,105 @@
+html {
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #42b983;
+}
+
+.wrap {
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 0 #eee;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    margin: 10px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 16px;
+    border-left: 3px solid #eee;
+    text-align: justify;
+    padding: 10px 0 10px 10px;
+    margin: 0;
+}
+
+.quote h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0;
+    align-self: flex-end;
+}
+
+.foot {
+    display: flex;
+}
+
+.btn {
+    flex: 1;
+    margin-left: 230px;
+    flex-basis: 85px;
+    width: 85px;
+    height: 32px;
+    margin-right: 10px;
+    background: #337ab7;
+    color: #fff;
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 0 #eee;
+    border-radius: 5px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.social-share {
+    margin-left: 10px;
+}
+.social-share a{
+    margin: 0 0 0 4px;
+}
+
+li {
+    width: 75px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 0 #eee;
+    border-radius: 5px;
+}
+
+.weibo {
+    background: #d9534f;
+    color: #fff;
+}
+
+.twitter {
+    background: #5bc0de;
+    color: #fff;
+}
